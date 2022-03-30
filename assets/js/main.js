@@ -9,4 +9,11 @@ Il software stampa il maggiore.
 // creo primo prompt
  const user_1 = parseInt(prompt("inserisci il primo numero"))
  const user_2 = parseInt(prompt("inserisci il secondo numero"))
+
+ if( user_1 > user_2){
+     console.log("è maggiore")
+ }else {
+     user_1 < user_2
+     console.log("è minore")
+ }
  
