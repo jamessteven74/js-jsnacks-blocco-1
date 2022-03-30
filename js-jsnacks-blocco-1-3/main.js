@@ -12,7 +12,7 @@ const user = parseInt(prompt("inserisci 10 numeri"))
 
 
 
-const Numbers = ()`${total} ${user}`
+
 //console.log(Numbers)
 
 
@@ -20,4 +20,5 @@ const Numbers = ()`${total} ${user}`
 for(let i = 0; i < 10; i++){
     const total = user + i;
 }
+
 
