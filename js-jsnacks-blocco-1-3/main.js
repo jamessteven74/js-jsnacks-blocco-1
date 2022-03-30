@@ -7,18 +7,24 @@ Il programma stampa la somma di tutti i numeri inseriti.
 //chiedere all'utente di inserire un numero per 10 volte.
 // creare il programma di sommatoria degli inserimemnti.
 
-const user = parseInt(prompt("inserisci 10 numeri"))
-//console.log(user) da metterci il prompt.
 
 
 
 
-//console.log(Numbers)
+
+let somma
+
+let numero_utente
 
 
-//ciclo_for
+console.log(somma, numero_utente)
+
 for(let i = 0; i < 10; i++){
-    const total = user + i;
+    numero_utente = parseInt(prompt("inserisci un numero 10 volte"));
+    somma = parseInt(numero_utente + somma)
+    somma =  somma + numero_utente
 }
+
+
 
 
