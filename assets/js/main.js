@@ -32,13 +32,16 @@ Il software stampa prima la parola più corta, poi la parola più lunga.
 
 
 const word_one = prompt("inserisci una parola corta");
-const word_two = prompt("inserisci una parola lunga");
+const word_two = prompt("inserisci una parola più lunga");
 console.log(word_one, word_two);
 
 if(word_one > word_two){
     console.log("hai inserito la parola lunga")
-}else {
-    word_one < word_two;
+}else if (word_one < word_two){
     console.log("hai inserito la parola più corta")
+    
+} else{
+    word_one === word_two
+    console.log("le parole hanno la stessa lunghezza")
 }
  
