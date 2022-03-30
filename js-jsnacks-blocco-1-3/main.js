@@ -10,14 +10,14 @@ Il programma stampa la somma di tutti i numeri inseriti.
 const user = parseInt(prompt("inserisci 10 numeri"))
 //console.log(user) da metterci il prompt.
 
-//creazione di un Array
 
-const Numbers = 
-console.log(Numbers)
+
+const Numbers = ()`${total} ${user}`
+//console.log(Numbers)
 
 
 //ciclo_for
 for(let i = 0; i < 10; i++){
-    const ten_times = user + Numbers
+    const total = user + i;
 }
 
